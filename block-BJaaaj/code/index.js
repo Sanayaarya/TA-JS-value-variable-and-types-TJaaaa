@@ -3,14 +3,24 @@
 let firstName = "Arya";
 let lastName = "Stark";
 
+
 // Do the following:
 
 // Alert the value of the firstName.
+alert (firstName);
 // Alert the value of the lastName.
+alert (lastName);
 // Assign a new value of `"John"` to firstName.
+ firstName = "john";
 // Assign a new value of `"Snow"` to lastName.
+ lastName ="snow";
 // Alert the new value of `firstName` and `lastName` by concatenating them
+alert (firstName  + " " +  lastName);
 // Create a new varaible using `const` named `fullName` and assign the fullname using firstName and lastName seperated by space.
+ const  fullName = firstName  + " " +  lastName;
+ alert(fullName);
+
+ 
 
 // Declare three variables `name,` `newUser` and `isAdmin`.
 // Assign your name as the value of `name`.
@@ -21,6 +31,12 @@ let lastName = "Stark";
 // Assignment and re-assignment
 
 var wiseMan = "Tyrion Lannister";
+var name = "Sanaya";
+var newUser = name;
+var isAdmin = "true";
+alert (name);
+alert(newUser);
+alert(isAdmin);
 
 // Follow instructions and do the following. In case of an error write the error in comment
 
@@ -28,6 +44,10 @@ var wiseMan = "Tyrion Lannister";
 // Declare a variable `userName` with value "Lysa Arryn"
 // Declare a variable named `oddNumber` and assign a value `57`.
 // Reassign the value of `oddNumber` to 61
+var wiseman = "Samwell"
+var userName = "lysa Arryn"
+var oddNumber = "57"
+var oddNumber = "61"
 
 // Mathematical Operation
 
@@ -39,3 +59,8 @@ let amount = 4280;
 // Declare another variable `addedAmount`. It's value should be 32 more than the value of amount.
 // Declare a variable `multipleAmount`. It's value should be 7 times the value of amount.
 // Declare a variable `dividedAmount`. It should store the resultant of amount divided by 57.
+let reducedAmount = amount - 24;
+let addedAmount = amount +32;
+let multipleAmount = amount * 7;
+let dividedAmount =  amount / 57;
+
