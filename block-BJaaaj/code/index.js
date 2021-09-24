@@ -15,11 +15,10 @@ alert (lastName);
 // Assign a new value of `"Snow"` to lastName.
  lastName ="snow";
 // Alert the new value of `firstName` and `lastName` by concatenating them
-alert (firstName  + " " +  lastName);
+alert (firstName + lastName);
 // Create a new varaible using `const` named `fullName` and assign the fullname using firstName and lastName seperated by space.
- const  fullName = firstName  + " " +  lastName;
- alert(fullName);
-
+ const  fullName = `${firstName} ${lastName}`;
+  
  
 
 // Declare three variables `name,` `newUser` and `isAdmin`.
@@ -33,7 +32,7 @@ alert (firstName  + " " +  lastName);
 var wiseMan = "Tyrion Lannister";
 var name = "Sanaya";
 var newUser = name;
-var isAdmin = "true";
+var isAdmin = true;
 alert (name);
 alert(newUser);
 alert(isAdmin);
