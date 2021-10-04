@@ -8,8 +8,28 @@ Write a program that asks the user his/her age and check for the following condi
 - `if` the age is between 4-11 then print the message " You are too young to participate in the marathon".
 - `if` the age is less than 4 then print the message " Hey Kiddo! Can You Walk ?"
 - `if` the age is greater than 55 then print the message " You are too old to participate in the marthon".
-👇
+👇 
 */
+
+var age = + prompt("enter your age");
+if (age>12 && age < 55){
+  alert("You can participate in the marathon")
+}
+else if (age > 4 && age < 11){
+  alert(" You are too young to participate in the marathon")
+}
+else if (age <4 ){
+  alert(" Hey Kiddo! Can You Walk ?")
+}
+else if (age > 55 ){
+  alert( " You are too old to participate in the marthon")
+}
+else{
+  alert("invalid")
+};
+
+
+
 
 // Loops
 /*
@@ -21,12 +41,24 @@ n = 7 => output: heeeeeeello
 👇
 */
 // [Your code goes here]
+var n=+prompt(`enter no.`)
+var e=""
+for( let i=1;i<=n;i++){
+
+e=e+"e"
+
+}
+alert(`h${e}llo`)
+
+
 
 /*
 Program to calculate the sum of first n natural numbers(1,2,3...n are known as natural numbers). Prompt user to enter n (using `prompt`) then based on input provided calculate and show result in `alert`.
 👇
 */
 // [Your code goes here]
+
+ 
 
 /* Switch Statement
 
@@ -46,6 +78,15 @@ Take a number value from user and alert the message if it matches the conditions
 
 */
 // [Your code goes here]
+   
+let n = +prompt("enter the no")
+let sum = 0;
+for(let i=0 ; i<=n ; i++){
+  sum += i 
+}
+console.log(sum);
+
+
 
 /*
 🎖Using switch statement do the following
@@ -62,6 +103,32 @@ Take the value of `marks` (0-100) from user using `prompt` and `alert` the messa
 */
 
 // [Your code goes here]
+   
+var a=0;
+for(let i=0;i<=5;i++){
+var b=+prompt("enter the no")
+a+=b;
+}
+var avg=a/5;
+switch(true){
+    case avg<60:
+console.log("f")
+break;
+    case avg<70:
+console.log("e")
+break;
+    case avg<80:
+console.log("d")
+break;
+    case avg<90:
+console.log("c")
+break;
+    case avg<100:
+console.log("b")
+break;
+    default:
+console.log("not allowed")}
+
 
 /*
  🎖Write a JavaScript program that takes two `integers` from user (using prompt) and alerts the larger number.
